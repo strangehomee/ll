@@ -1,0 +1,217 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body section {
+  padding: 80px 0;
+}
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+
+header .menu {
+  display: flex;
+  background-color: #212529;
+  width: 100%;
+  padding: 25px 90px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+}
+header .menu .imgbox {
+  width: 140px;
+}
+header .menu nav a {
+  font-size: 18px;
+  margin-left: 35px;
+  letter-spacing: 1px;
+}
+header .menu .box {
+  display: none;
+}
+@media screen and (max-width: 993px) {
+  header .menu {
+    padding: 17px 150px;
+  }
+  header .menu .box {
+    width: 80px;
+    border: 1px solid #383b3f;
+    border-radius: 6px;
+    color: #9b9d9e;
+    padding: 12px 10px;
+  }
+  header .menu .box h4 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 9px;
+  }
+  header .menu .box .icon {
+    font-size: 12px;
+    margin-left: 9px;
+  }
+  header .menu nav {
+    display: none;
+  }
+}
+
+#welcome {
+  background-image: url(assets/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 645px;
+}
+#welcome .textbox {
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  margin-top: 60px;
+}
+#welcome .textbox h3 {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+#welcome .textbox h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #ffffff;
+}
+#welcome .textbox .btn {
+  padding: 20px 45px;
+  border-radius: 5px;
+  background-color: #ffc800;
+  margin: 70px 0 0 0;
+}
+#welcome .textbox .btn h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fffcf8;
+}
+
+#services {
+  letter-spacing: 1px;
+}
+#services h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #212529;
+  margin-top: 85px;
+}
+#services h3 {
+  font-size: 18px;
+  color: #6c757d;
+  margin: 23px 0 60px;
+}
+#services .box {
+  display: inline-block;
+}
+#services .box .minibox {
+  display: inline-block;
+  width: 150px;
+}
+#services .box .minibox .icon {
+  background-color: #ffc800;
+  border-radius: 50%;
+  padding: 30px 15px;
+  margin: 10px 15px;
+}
+#services .box .minibox .icon i {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+#services .box .textbox h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #252529;
+  margin: 5px 0 20px;
+}
+#services .box .textbox p {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+}
+#portfolio h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #212529;
+}
+#portfolio h3 {
+  font-size: 18px;
+  color: #8b9298;
+  margin: 25px 0 70px;
+}
+#portfolio .box {
+  display: inline-block;
+  background-color: white;
+  margin-bottom: 20px;
+}
+#portfolio .box .textbox {
+  padding: 20px;
+}
+#portfolio .box .textbox h2 {
+  font-size: 27px;
+  font-weight: 700;
+  color: #212529;
+}
+#portfolio .box .textbox h4 {
+  font-size: 19px;
+  color: #8c9299;
+  margin-top: 10px;
+}
+
+#about .minibox {
+  width: auto;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+#about .minibox h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212529;
+}
+#about .minibox h4 {
+  font-size: 18px;
+  color: #7d7e81;
+  margin: 20px 0;
+}
+#about .box .textbox {
+  width: 450px;
+}
+#about .box .textbox h2, #about .box .textbox h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 15px;
+}
+#about .box .textbox p {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.6;
+}
+#about .box .imgbox {
+  width: 156px;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+}
+#about .wdth {
+  width: 156px;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+  background-color: #ffc800;
+  margin-left: 560px;
+}
+#about .wdth h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fffefd;
+  padding: 35px 30px;
+  line-height: 1.1;
+}

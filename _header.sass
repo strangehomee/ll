@@ -1,0 +1,37 @@
+header
+    .menu
+        display: flex
+        background-color: #212529
+        width: 100%
+        padding: 25px 90px
+        position: fixed
+        z-index: 1
+        left: 0
+        .imgbox
+            width: 140px
+        nav
+            a
+                font-size: 18px
+                margin-left: 35px
+                letter-spacing: 1px
+        .box
+            display: none
+
+    @media screen and ( max-width: 993px )
+        .menu
+            padding: 17px 150px
+            .box
+                width: 80px
+                border: 1px solid #383b3f
+                border-radius: 6px
+                color: #9b9d9e
+                padding: 12px 10px
+                h4
+                    font-size: 13px
+                    font-weight: 700
+                    margin-left: 9px
+                .icon
+                    font-size: 12px
+                    margin-left: 9px
+            nav
+                display: none
